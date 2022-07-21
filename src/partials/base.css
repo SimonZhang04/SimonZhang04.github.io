@@ -1,0 +1,57 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.body {
+  margin: 0;
+}
+
+h1, h2, h3 {
+  font-family: 'PT Sans Narrow', sans-serif;  
+  font-weight: 700;
+  color: #323B3C;
+}
+
+h1{
+  font-size: 5em;
+  text-align: center;
+  margin: 0;
+}
+
+h2{
+  font-size: 3em;
+  margin: 0;
+}
+
+h3{
+  font-size: 2.2em;
+}
+
+h4 {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin: 0;
+}
+
+p, ul, h4 {
+  font-family: 'PT Sans', sans-serif;
+  color: #323B3C;
+}
+
+ul {
+  padding-left: 2em;
+  margin: 0;
+  max-width: 70ch;
+}
+
+.picture {
+  border-radius: 50%;
+  width: 15em;
+  height: 15em;
+  object-fit: cover;
+}
+  
+img {
+  display: block;
+  max-width: 100%;
+}
